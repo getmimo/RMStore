@@ -20,7 +20,6 @@
 
 #import "RMAppReceipt.h"
 #import <UIKit/UIKit.h>
-#import <openssl/pkcs7.h>
 #import <openssl/objects.h>
 #import <openssl/sha.h>
 #import <openssl/x509.h>
