@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'RMStore'
-  s.version = '0.7.2'
+  s.version = '0.7.3'
   s.license = 'Apache 2.0'
   s.summary = 'A lightweight iOS library for In-App Purchases that adds blocks and notifications to StoreKit, plus verification, persistence and downloads.'
   s.homepage = 'https://github.com/robotmedia/RMStore'
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
     arv.vendored_libraries = 'openssl/libcrypto.a', 'openssl/libssl.a'
     arv.libraries = 'ssl', 'crypto'
-    arv.xcconfig = { 'HEADER_SEARCH_PATHS' => "RMStore/**", 'LIBRARY_SEARCH_PATHS' => "openssl/" }
+    arv.xcconfig = { 'HEADER_SEARCH_PATHS' => "openssl/**", 'LIBRARY_SEARCH_PATHS' => "openssl/" }
   end
 
   s.subspec 'TransactionReceiptVerifier' do |trv|
