@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
     arv.vendored_libraries = 'openssl/libcrypto.a', 'openssl/libssl.a'
     arv.libraries = 'ssl', 'crypto'
-    arv.xcconfig = { 'HEADER_SEARCH_PATHS' => "RMStore/openssl/**", 'LIBRARY_SEARCH_PATHS' => "openssl/" }
+    arv.xcconfig = { 'HEADER_SEARCH_PATHS' => "RMStore/**", 'LIBRARY_SEARCH_PATHS' => "openssl/" }
   end
 
   s.subspec 'TransactionReceiptVerifier' do |trv|
