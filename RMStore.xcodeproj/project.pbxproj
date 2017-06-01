@@ -327,7 +327,6 @@
 		A0AF3CFF17A802F300D2E836 = {
 			isa = PBXGroup;
 			children = (
-				B8EE10271EE03783005B05E9 /* openssl */,
 				A0AF3D0D17A802F300D2E836 /* RMStore */,
 				A0AF3D2217A802F300D2E836 /* RMStoreTests */,
 				A0AF3D7617A8085900D2E836 /* RMStoreDemo */,
@@ -367,6 +366,7 @@
 		A0AF3D0D17A802F300D2E836 /* RMStore */ = {
 			isa = PBXGroup;
 			children = (
+				B8EE10271EE03783005B05E9 /* openssl */,
 				8793E7AD180D512E005D7A66 /* Optional */,
 				A0AF3D1017A802F300D2E836 /* RMStore.h */,
 				A0AF3D1217A802F300D2E836 /* RMStore.m */,
@@ -519,6 +519,7 @@
 				B8EE10721EE03795005B05E9 /* x509v3.h */,
 			);
 			name = openssl;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
