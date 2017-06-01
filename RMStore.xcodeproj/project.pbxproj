@@ -781,7 +781,10 @@
 					"RMStore/Optional/openssl-1.0.1e/lib",
 					"$(PROJECT_DIR)/openssl",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -803,7 +806,10 @@
 					"RMStore/Optional/openssl-1.0.1e/lib",
 					"$(PROJECT_DIR)/openssl",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
