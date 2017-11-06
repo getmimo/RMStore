@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     arv.dependency 'RMStore/Core'
     arv.platform = :ios, '7.0'
     arv.source_files = 'RMStore/Optional/RMStoreAppReceiptVerifier.{h,m}', 'RMStore/Optional/RMAppReceipt.{h,m}'
-    arv.dependency 'OpenSSL-iOS'
+    arv.dependency 'OpenSSL-for-iOS'
 
     # arv.vendored_libraries = '${PODS_ROOT}/OpenSSL-iOS/libcrypto.a', '${PODS_ROOT}/OpenSSL-iOS/libssl.a'
     # arv.libraries = 'ssl', 'crypto'
