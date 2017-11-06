@@ -37,9 +37,9 @@ Pod::Spec.new do |s|
     # arv.libraries = 'ssl', 'crypto'
     # arv.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/OpenSSL-iOS/openssl/**", 'LIBRARY_SEARCH_PATHS' => "${PODS_ROOT}/OpenSSL-iOS/" }
 
-    arv.vendored_libraries = 'openssl/libcrypto.a', 'openssl/libssl.a'
+    arv.vendored_libraries = 'lib-ios/libcrypto.a', 'lib-ios/libssl.a'
     arv.libraries = 'ssl', 'crypto'
-    arv.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/OpenSSL-iOS/openssl/**", 'LIBRARY_SEARCH_PATHS' => "openssl/" }
+    arv.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/OpenSSL-Universal/lib-ios/**", 'LIBRARY_SEARCH_PATHS' => "lib-ios/" }
   end
 
   s.subspec 'TransactionReceiptVerifier' do |trv|
